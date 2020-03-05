@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="textLocalIp" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="textFriendsIp" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
+        <Button x:Name="buttonStart" Content="Connect" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,389,0,0" Click="btnConnect_Click"/>
+        <Button x:Name="buttonSend" Content="Send" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="90,389,0,0" Click="buttonSend_Click"/>
+        <ListBox x:Name="listMessage" HorizontalAlignment="Left" Height="399" VerticalAlignment="Top" Width="586" Margin="196,10,0,0"/>
+        <TextBox x:Name="textMessage" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="10,361,0,0"/>
+        <Label Content="ur IP" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,7,0,0"/>
+        <Label Content="Target IP" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,38,0,0"/>
+        <TextBox x:Name="textLocalPort" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" Margin="10,66,0,0"/>
+        <Label Content="ur Port" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="123,63,0,0"/>
+        <TextBox x:Name="textFriendsPort" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="103" Margin="10,94,0,0"/>
+        <Label Content="Target Port" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="118,94,0,0"/>
+
     </Grid>
 </Window>
